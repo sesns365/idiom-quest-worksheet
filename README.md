@@ -20,8 +20,8 @@
 
 | 平台 | 插圖 | 產出 | 安裝 |
 |---|---|---|---|
-| Gemini 網頁版 | 內建生圖 6 張 | 可預覽的 PDF／Word 文件 | 自訂 → 技能 → 匯入 `idiom-quest-worksheet` 資料夾（資料夾名不可改） |
-| ChatGPT | 內建生圖，一張一張生成 6 張 | Word 檔（可另存 PDF） | 建立 GPT，把 [`SKILL.md`](idiom-quest-worksheet/SKILL.md) 全文貼到「指示」，開啟「圖像生成」與「程式碼解譯器」 |
+| Gemini 網頁版 | 內建生圖 6 張，或整張學習單圖 | 可預覽的 PDF／Word 文件 | 自訂 → 技能 → 匯入 `idiom-quest-worksheet` 資料夾（資料夾名不可改） |
+| ChatGPT | 內建生圖 6 張，或整張學習單圖 | Word 檔（可另存 PDF） | 建立 GPT，把 [`SKILL.md`](idiom-quest-worksheet/SKILL.md) 全文貼到「指示」，開啟「圖像生成」與「程式碼解譯器」 |
 | Claude | 向量插圖 | HTML＋PDF＋Word | 下載本 repo 的 zip，把 `idiom-quest-worksheet` 資料夾壓成 zip，到 設定 → 功能 → 技能 上傳 |
 
 也可以在任何 AI 對話貼上本頁網址並說「安裝 skill」，就能在該次對話直接使用。
@@ -30,6 +30,7 @@
 
 - 觸發關鍵詞是「成語圖文探險單」，例如：`成語圖文探險單：畫蛇添足、守株待兔、亡羊補牢、井底之蛙、對牛彈琴、自相矛盾`
 - 少於 6 個成語會自動補足；也可以貼上課文，請它先找出成語。
+- Gemini、ChatGPT 有兩種方式：**插圖＋文件**（預設，可編輯）或**整張學習單圖**（說「整張圖」，生成兩張 A4 圖片，記得檢查錯字）。
 
 ## Claude Code 指令（自己電腦執行）
 
