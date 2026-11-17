@@ -21,7 +21,7 @@
 | 平台 | 插圖 | 產出 | 安裝 |
 |---|---|---|---|
 | Gemini 網頁版 | 內建生圖 6 張 | 可預覽的 PDF／Word 文件 | 自訂 → 技能 → 匯入 `idiom-quest-worksheet` 資料夾（資料夾名不可改） |
-| ChatGPT | 內建生圖（一張 3×2 拼圖再切成 6 張） | Word 檔（可另存 PDF） | 建立 GPT，把 [`SKILL.md`](idiom-quest-worksheet/SKILL.md) 全文貼到「指示」，開啟「圖像生成」與「程式碼解譯器」 |
+| ChatGPT | 內建生圖，一張一張生成 6 張 | Word 檔（可另存 PDF） | 建立 GPT，把 [`SKILL.md`](idiom-quest-worksheet/SKILL.md) 全文貼到「指示」，開啟「圖像生成」與「程式碼解譯器」 |
 | Claude | 向量插圖 | HTML＋PDF＋Word | 下載本 repo 的 zip，把 `idiom-quest-worksheet` 資料夾壓成 zip，到 設定 → 功能 → 技能 上傳 |
 
 也可以在任何 AI 對話貼上本頁網址並說「安裝 skill」，就能在該次對話直接使用。
